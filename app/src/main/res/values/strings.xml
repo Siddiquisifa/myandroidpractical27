@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">myandroidpractical27</string>
+
+    <string name="facebook_app_id">361995652619217</string>
+    <string name="fb_login_protocol_scheme">fb361995652619217</string>
+    <string name="facebook_client_token">97e15384125b193ca62202eda589ca1a</string>
+
+</resources>

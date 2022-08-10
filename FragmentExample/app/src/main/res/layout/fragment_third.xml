@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:padding="20dp"
+    >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your FullName"
+        android:minHeight="50dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_email1"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Email"
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_password1"
+        android:minHeight="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password" />
+
+    <EditText
+        android:id="@+id/et_repass"
+        android:minHeight="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Re-ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_dob"
+        android:minHeight="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Birthdate:-DD/MM/YYYY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_mobileno"
+        android:minHeight="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter MobileNo:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_city"
+            android:minHeight="50dp"
+            android:layout_marginTop="15dp"
+            android:hint="Enter City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_state"
+        android:minHeight="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_country"
+            android:minHeight="50dp"
+            android:layout_marginTop="15dp"
+            android:hint="Enter Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_marginLeft="10dp"
+            android:minHeight="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_marginLeft="15dp"
+                android:id="@+id/radio_male"
+                android:text="Male"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:layout_marginLeft="20dp"
+                android:id="@+id/radio_female"
+                android:text="Female"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:minHeight="75dp"
+        android:text="submit" />
+
+</LinearLayout>
+</ScrollView>
